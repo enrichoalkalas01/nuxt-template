@@ -1,6 +1,9 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   target: 'static',
+  server: {
+    port: 8787 // default: 3000
+  },
   head: {
     title: 'nuxt-template',
     htmlAttrs: {
